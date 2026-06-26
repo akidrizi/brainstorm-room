@@ -43,4 +43,17 @@ You're asked explicitly — "Generate a skill from this?" — before one is ever
 | `engineering/to-issues` | Breaks a finished plan into vertical-slice tickets, on request. |
 | `meta/skill-forge` | Converts a brainstorm into a valid, reusable `SKILL.md` — the skill that generates skills. |
 
-Full provenance and adaptation notes live in each `SKILL.md`'s header and in [`docs/`](docs/).
+## Citations
+
+| Skill | Source(s) |
+|---|---|
+| `frameworks/design-thinking` | UK Design Council, [*Framework for Innovation*](https://www.designcouncil.org.uk/resources/framework-for-innovation/) |
+| `frameworks/adr` | [MADR](https://github.com/adr/madr); Michael Nygard, [*Documenting Architecture Decisions*](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) (2011) |
+| `frameworks/sre-lens` | Google, [*Site Reliability Engineering*](https://sre.google/sre-book/table-of-contents/) and the [*SRE Workbook*](https://sre.google/workbook/table-of-contents/) |
+| `engineering/grill-me` | [mattpocock/skills](https://github.com/mattpocock/skills), `productivity/grilling` + `productivity/grill-me` (merged into one) |
+| `engineering/improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills), `engineering/improve-codebase-architecture` |
+| `engineering/domain-modeling` | [mattpocock/skills](https://github.com/mattpocock/skills), `engineering/domain-modeling` |
+| `engineering/to-issues` | [mattpocock/skills](https://github.com/mattpocock/skills), `engineering/to-issues` |
+| `meta/skill-forge` | Anthropic's [Agent Skills spec](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) and [authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices); [mattpocock/skills](https://github.com/mattpocock/skills), `productivity/writing-great-skills` |
+
+None of the above is copied verbatim — each `SKILL.md`'s own header explains exactly what was adapted and why. Full adaptation notes live there and in [`docs/`](docs/).
