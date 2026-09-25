@@ -45,15 +45,15 @@ You're asked explicitly — "Generate a skill from this?" — before one is ever
 
 ## Citations
 
-| Skill | Source(s) |
-|---|---|
-| `frameworks/design-thinking` | UK Design Council, [*Framework for Innovation*](https://www.designcouncil.org.uk/resources/framework-for-innovation/) |
-| `frameworks/adr` | [MADR](https://github.com/adr/madr); Michael Nygard, [*Documenting Architecture Decisions*](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) (2011) |
-| `frameworks/sre-lens` | Google, [*Site Reliability Engineering*](https://sre.google/sre-book/table-of-contents/) and the [*SRE Workbook*](https://sre.google/workbook/table-of-contents/) |
-| `engineering/grill-me` | [mattpocock/skills](https://github.com/mattpocock/skills), `productivity/grilling` + `productivity/grill-me` (merged into one) |
-| `engineering/improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills), `engineering/improve-codebase-architecture` |
-| `engineering/domain-modeling` | [mattpocock/skills](https://github.com/mattpocock/skills), `engineering/domain-modeling` |
-| `engineering/to-issues` | [mattpocock/skills](https://github.com/mattpocock/skills), `engineering/to-issues` |
-| `meta/skill-forge` | Anthropic's [Agent Skills spec](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) and [authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices); [mattpocock/skills](https://github.com/mattpocock/skills), `productivity/writing-great-skills` |
+The `frameworks/design-thinking` skill follows the UK Design Council's Double Diamond [1]. `frameworks/adr` combines Nygard's original ADR format [2] with the MADR template [3]. `frameworks/sre-lens` draws on Google's *Site Reliability Engineering* [4] and *The Site Reliability Workbook* [5]. The engineering skills are adapted from Matt Pocock's skills collection [6]: `engineering/grill-me` merges `productivity/grilling` and `productivity/grill-me`, while `engineering/improve-codebase-architecture`, `engineering/domain-modeling`, and `engineering/to-issues` adapt their namesakes. `meta/skill-forge` is built on Anthropic's Agent Skills specification [7] and authoring best practices [8], together with `productivity/writing-great-skills` from [6].
+
+1. Design Council. *Framework for Innovation: Design Council's Evolved Double Diamond*. https://www.designcouncil.org.uk/resources/framework-for-innovation/
+2. Nygard, M. (2011). *Documenting Architecture Decisions*. Cognitect. https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
+3. MADR — Markdown Architectural Decision Records. https://github.com/adr/madr
+4. Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (Eds.). (2016). *Site Reliability Engineering: How Google Runs Production Systems*. O'Reilly. https://sre.google/sre-book/table-of-contents/
+5. Beyer, B., Murphy, N. R., Rensin, D. K., Kawahara, K., & Thorne, S. (Eds.). (2018). *The Site Reliability Workbook*. O'Reilly. https://sre.google/workbook/table-of-contents/
+6. Pocock, M. *skills*. GitHub repository. https://github.com/mattpocock/skills
+7. Anthropic. *Agent Skills: Overview*. https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+8. Anthropic. *Skill authoring best practices*. https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
 
 None of the above is copied verbatim — each `SKILL.md`'s own header explains exactly what was adapted and why. Full adaptation notes live there and in [`docs/`](docs/).
